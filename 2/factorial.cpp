@@ -1,4 +1,5 @@
-#include <iostream>
+/*
+ #include <iostream>
 
 int fac(unsigned int n) {
     unsigned int f = 1;
@@ -14,3 +15,4 @@ int main() {
     std::cin >> x;
     std::cout << fac(x)  ;
 }
+*/
