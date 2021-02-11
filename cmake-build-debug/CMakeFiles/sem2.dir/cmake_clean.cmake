@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sem2.dir/factorial.cpp.obj"
   "CMakeFiles/sem2.dir/main.cpp.obj"
   "libsem2.dll.a"
   "sem2.exe"

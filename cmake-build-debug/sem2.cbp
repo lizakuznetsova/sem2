@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/USER/Desktop/sem2/factorial.cpp">
+			<Option target="sem2"/>
+		</Unit>
 		<Unit filename="C:/Users/USER/Desktop/sem2/main.cpp">
 			<Option target="sem2"/>
 		</Unit>

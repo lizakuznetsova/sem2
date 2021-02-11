@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/USER/Desktop/sem2/factorial.cpp" "C:/Users/USER/Desktop/sem2/cmake-build-debug/CMakeFiles/sem2.dir/factorial.cpp.obj"
   "C:/Users/USER/Desktop/sem2/main.cpp" "C:/Users/USER/Desktop/sem2/cmake-build-debug/CMakeFiles/sem2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

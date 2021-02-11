@@ -142,6 +142,33 @@ sem2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/build
 .PHONY : sem2/fast
 
+factorial.obj: factorial.cpp.obj
+
+.PHONY : factorial.obj
+
+# target to build an object file
+factorial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/factorial.cpp.obj
+.PHONY : factorial.cpp.obj
+
+factorial.i: factorial.cpp.i
+
+.PHONY : factorial.i
+
+# target to preprocess a source file
+factorial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/factorial.cpp.i
+.PHONY : factorial.cpp.i
+
+factorial.s: factorial.cpp.s
+
+.PHONY : factorial.s
+
+# target to generate assembly for a file
+factorial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/factorial.cpp.s
+.PHONY : factorial.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... sem2
+	@echo ... factorial.obj
+	@echo ... factorial.i
+	@echo ... factorial.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
