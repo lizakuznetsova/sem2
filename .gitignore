@@ -1,1 +1,4 @@
+!.gitignore
 !*.cpp
+.idea
+cmake-build-debug
