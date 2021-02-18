@@ -196,6 +196,33 @@ factorial2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/factorial2.cpp.s
 .PHONY : factorial2.cpp.s
 
+fibonacci.obj: fibonacci.cpp.obj
+
+.PHONY : fibonacci.obj
+
+# target to build an object file
+fibonacci.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/fibonacci.cpp.obj
+.PHONY : fibonacci.cpp.obj
+
+fibonacci.i: fibonacci.cpp.i
+
+.PHONY : fibonacci.i
+
+# target to preprocess a source file
+fibonacci.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/fibonacci.cpp.i
+.PHONY : fibonacci.cpp.i
+
+fibonacci.s: fibonacci.cpp.s
+
+.PHONY : fibonacci.s
+
+# target to generate assembly for a file
+fibonacci.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2.dir\build.make CMakeFiles/sem2.dir/fibonacci.cpp.s
+.PHONY : fibonacci.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... factorial2.obj
 	@echo ... factorial2.i
 	@echo ... factorial2.s
+	@echo ... fibonacci.obj
+	@echo ... fibonacci.i
+	@echo ... fibonacci.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

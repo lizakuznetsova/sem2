@@ -3,4 +3,4 @@ project(sem2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(sem2 main.cpp factorial.cpp factorial2.cpp)
+add_executable(sem2 main.cpp factorial.cpp factorial2.cpp fibonacci.cpp)
