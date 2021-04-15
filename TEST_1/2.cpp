@@ -15,7 +15,9 @@ int sum(int n) {
         s += *a;
         ++a;
     }
+
     return s;
+
 }
 
 int main(){
